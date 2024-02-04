@@ -20,7 +20,7 @@ app.get("/weather", (req, res)=>{
     res.send("Welcome to himanshu's weather project weather Page");
 })
 app.get("*", (req, res)=>{
-    res.send("404 OOPs page not found :(");
+    res.send("404!!!! OOPs page not found :(");
 })
 
 app.listen(port, ()=>console.log(`port ${port} is listening`));
