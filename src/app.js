@@ -17,7 +17,7 @@ app.get("/about", (req, res)=>{
     res.send("Welcome to Himanshu's Weather project About Page");
 })
 app.get("/weather", (req, res)=>{
-    res.send();
+    res.send("welcome to weather page!");
 })
 app.get("*", (req, res)=>{
     res.send("404!!!! OOPs page not found :(");
