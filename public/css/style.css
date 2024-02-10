@@ -1,6 +1,17 @@
-h1{
-    color: rgb(13, 13, 117);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Piazzolla", serif;
 }
-body{
-    color: rgb(184, 117, 16);
+:root{
+    --main-bg: #1e272e;
+    --main-color: #0097e6;
+}
+html{
+    font-size: 62.5%;
+}
+
+.row{
+    margin: 0;
 }
