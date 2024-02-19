@@ -10,6 +10,41 @@ body {
     color: #fff;
     text-align: center;
 }
+.search{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    margin: 50px auto 0;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 50px;
+    height: 30px;
+    border-radius: 50px;
+    flex: 3;
+    margin-right: 30px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.search button{
+   border: 0;
+   outline: 0;
+   background: white;
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   cursor: pointer;
+}
+.search button img{
+    width: 40px;
+}
 .card{
     width: 90%;
     height: 800px;
