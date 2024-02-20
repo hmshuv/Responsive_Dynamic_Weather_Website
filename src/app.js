@@ -5,13 +5,14 @@ const port = process.env.PORT || 7000;   //Uused for deploying the code
 
 //public static path
 
-const static_path = path.join((__dirname), "../public/");
+// const static_path = path.join((__dirname), "../public/");
 
-app.use(express.static(static_path));
+// app.use(express.static(static_path));
 
 //routing
 app.get("/", (req, res)=>{
-    res.send("Welcome to himanshu's weather project");
+    console.log("Welcome to himanshu's weather project");
+    res.sendFile(path.join(__dirname, "../public/index.html"));
 })
 app.get("/about", (req, res)=>{
     res.send("Welcome to Himanshu's Weather project About Page");

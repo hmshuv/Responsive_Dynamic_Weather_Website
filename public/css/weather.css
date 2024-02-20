@@ -6,7 +6,7 @@
 }
 body {
   
-    background-color: #222;
+    background-color: #1f282d;
     color: #fff;
     text-align: center;
 }
@@ -57,4 +57,24 @@ body {
     text-align: center;
    
 }
+.navbar{
+    background-color: black;
+    border-radius: 15px;
+}
+.navbar ul{
+  
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    margin: 13px 20px
+
+}
+.navbar li a{
+    padding: 3px 3px;
+    color: white;
+    text-decoration: none;
+
+}
+
 
