@@ -12,7 +12,9 @@
 
     .navbar {
       background-color: black;
-      border-radius: 15px;
+      border-radius: 25px;
+      padding: 0px;
+      margin: 0px;
     }
 
     .navbar ul {
@@ -23,15 +25,32 @@
       float: left;
       margin: 13px 20px
     }
-
+     
     .navbar li a{
       padding: 6px 3px;
       text-decoration: none;
       color: white;
 
     }
-    .navbar li input{
-      background-color: black;
+    .navbar li a :hover{
+      background-color: rgb(233, 18, 18);
+      color: red;
+   
+
+    }
+
+   
+    .navbar search{
+    background-color: white;
+    padding: 7px 60px 8px;
+    margin: 4px 5px;
+    border-radius: 25px;
+    }
+    .navbar button{
+    background-color: white;
+    padding: 7px 8px;
+    margin: 0px;
+    border-radius: 0px;
     }
   </style>
  
@@ -46,7 +65,9 @@
         <li><a href="#">Weather</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
-        <li><input type="text" placeholder="Search Your City"> <a href="#"><img src="" alt="Drop"></a></li>
+        <div class="search">
+          <input type="text" placeholder="Search Your City" > <button><img src="" alt="Search"></button> 
+        </div>
 
       </ul>
     </nav>
