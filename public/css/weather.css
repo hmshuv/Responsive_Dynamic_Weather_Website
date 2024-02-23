@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'courier new', sans-serif;
     box-sizing: border-box;
 }
 
@@ -10,6 +10,9 @@ body {
     background-color: #1f282d;
     color: #fff;
     text-align: center;
+}
+.h1{
+  padding-top: 10px;
 }
 
 .search {
@@ -62,32 +65,62 @@ body {
     text-align: center;
 
 }
+
+
 .navbar {
-    background-color: black;
-    border-radius: 25px;
-    padding: 0px;
-    margin: 0px;
-  }
+  background-color: black;
+  border-radius: 25px;
+  padding: 0px;
+  margin: auto;
+}
 
 .navbar ul {
-    overflow: auto;
-  }
+  overflow: auto;
+}
 
-  .navbar li {
-    float: left;
-    margin: 13px 20px
-  }
-   
-  .navbar li a{
-    padding: 6px 3px;
-    text-decoration: none;
-    color: white;
+.navbar li {
+  float: left;
+  margin: 13px 20px
+}
 
-  }
+.navbar li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  border: double;
+  border-color: transparent;
+  border-radius: 25px;
 
+}
+
+
+
+
+.navbar input {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 25px;  
+}
+
+
+.navbar  li a:hover{
+  background-color: rgb(56, 54, 54);
+  border-radius: 25px;
+  border: double;
+  
  
-  .navbar input{
-    background-color: white;
-  padding: 7px 60px 8px;
-  margin: 4px 5px;
-  }
+}
